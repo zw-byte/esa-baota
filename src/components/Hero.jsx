@@ -36,7 +36,7 @@ import React from 'react';
                 <FaRocket /> 立即下载宝塔面板
               </button>
               <button className="px-8 py-4 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-bold text-lg transition-all shadow-sm">
-                了解更多详情
+                了解更多
               </button>
             </div>
           </div>
