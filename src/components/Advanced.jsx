@@ -42,9 +42,14 @@ import React from 'react';
                 <p className="text-slate-600 text-lg leading-relaxed mb-8">
                   宝塔面板满足了日常运维的便捷性，如果您需满足更复杂的业务需求，阿里云 ESA 原生控制台还为您提供了更多企业级能力。
                 </p>
-                <button className="px-8 py-3 bg-white border border-slate-200 hover:border-ali-orange hover:text-ali-orange rounded-xl transition-all text-slate-700 font-semibold shadow-sm hover:shadow-md">
+                <a 
+                  href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=a2c4g.11186623.0.i1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-3 bg-white border border-slate-200 hover:border-ali-orange hover:text-ali-orange rounded-xl transition-all text-slate-700 font-semibold shadow-sm hover:shadow-md"
+                >
                   前往ESA官方文档
-                </button>
+                </a>
               </div>
               <div className="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
                 {advancedFeatures.map((item, index) => (
