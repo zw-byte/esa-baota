@@ -20,7 +20,7 @@ import React from 'react';
       {
         icon: <FaHandHoldingHeart />,
         title: "领取权益",
-        desc: "点击“领取2个免费站点”，3个工作日内发放"
+        desc: "点击“领取2个免费站点”"
       }
     ];
 
