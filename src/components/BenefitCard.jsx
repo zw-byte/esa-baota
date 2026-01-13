@@ -19,8 +19,8 @@ import React from 'react';
                 <p className="text-slate-600 text-lg mb-6 leading-relaxed">
                   为满足多站点用户的加速需求，通过宝塔面板使用ESA插件的用户，可领取专属福利。
                 </p>
-                <div className="flex items-center gap-2 text-green-600 font-medium bg-green-50 px-4 py-2 rounded-lg w-fit border border-green-100">
-                  <FaCheckCircle /> 每个账号仅限领取一次
+                <div className="flex items-center gap-1.5 text-green-600 text-xs font-medium bg-green-50 px-3 py-1.5 rounded-lg w-fit border border-green-100">
+                  <FaCheckCircle /> 每个账号仅限领取一次，3个工作日内发放
                 </div>
               </div>
               <div className="bg-gradient-to-b from-white to-slate-50 p-8 rounded-2xl border border-slate-100 text-center min-w-[240px] shadow-lg shadow-slate-200/50">
