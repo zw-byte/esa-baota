@@ -27,10 +27,10 @@ import React from 'react';
               </span>
               插件一键接入，运维效率翻倍
             </h1>
-            <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-              即日起，在宝塔面板搜索并安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
-              即可在面板内实现一站式站点接入、配置与管理。
-            </p>
+        <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
+          即日起，在宝塔面板搜索并安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
+          即可在面板内实现一站式站点接入、配置与管理。
+        </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2">
                 <FaRocket /> 立即下载宝塔面板
