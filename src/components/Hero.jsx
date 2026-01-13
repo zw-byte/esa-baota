@@ -32,9 +32,14 @@ import React from 'react';
       即可一站式管理站点接入与配置。
     </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2">
-                <FaRocket /> 立即下载宝塔面板
-              </button>
+              <a 
+                href="https://www.bt.cn/new/download.html" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2"
+              >
+                <FaRocket /> 立即安装宝塔面板
+              </a>
               <button className="px-8 py-4 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-bold text-lg transition-all shadow-sm">
                 了解更多
               </button>
