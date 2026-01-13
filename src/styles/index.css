@@ -1,0 +1,15 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      @apply bg-slate-50 text-slate-900 antialiased;
+    }
+
+    .gradient-text {
+      @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-ali-orange;
+    }
+
+    .glass-card {
+      @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-xl;
+    }
