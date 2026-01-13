@@ -37,9 +37,9 @@ import React from 'react';
               <h2 className="text-3xl font-bold text-slate-900 mb-4">在宝塔面板，一键实现五大能力</h2>
               <p className="text-slate-500">主打“轻量、可视、自动化”，闭环管理您的站点</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex flex-wrap justify-center gap-6">
               {features.map((feature, index) => (
-                <div key={index} className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                <div key={index} className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col items-center text-center">
                   <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg shadow-blue-500/20">
                     {feature.icon}
                   </div>
