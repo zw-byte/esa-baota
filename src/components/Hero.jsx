@@ -21,16 +21,16 @@ import React from 'react';
               </div>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-extrabold mb-8 tracking-tight text-slate-900 leading-tight">
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-2">
-                阿里云 ESA x 宝塔面板
-              </span>
-              插件一键接入，运维效率翻倍
-            </h1>
-        <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-          即日起，在宝塔面板搜索并安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
-          即可在面板内实现一站式站点接入、配置与管理。
-        </p>
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tight text-slate-900 leading-tight">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-2">
+            阿里云 ESA x 宝塔面板
+          </span>
+          一键接入，效率翻倍
+        </h1>
+    <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
+      在宝塔面板安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
+      即可一站式管理站点接入与配置。
+    </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2">
                 <FaRocket /> 立即下载宝塔面板
