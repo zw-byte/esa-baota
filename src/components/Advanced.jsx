@@ -26,36 +26,36 @@ import React from 'react';
 
     const Advanced = () => {
       return (
-        <section className="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <section className="py-24 bg-slate-50 text-slate-900 relative overflow-hidden">
           {/* Decorative background elements */}
-          <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-20">
-            <div className="absolute top-[-10%] right-[-5%] w-96 h-96 bg-blue-600 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-[-10%] left-[-5%] w-96 h-96 bg-ali-orange rounded-full blur-3xl"></div>
+          <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-30 pointer-events-none">
+            <div className="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-blue-100 rounded-full blur-3xl mix-blend-multiply"></div>
+            <div className="absolute bottom-[-10%] left-[-5%] w-[600px] h-[600px] bg-orange-100 rounded-full blur-3xl mix-blend-multiply"></div>
           </div>
 
           <div className="container mx-auto px-6 relative z-10">
-            <div className="flex flex-col lg:flex-row items-start justify-between gap-12 mb-16">
-              <div className="lg:w-1/3">
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                  探索 ESA <span className="text-ali-orange">更多进阶能力</span>
+            <div className="flex flex-col lg:flex-row items-start justify-between gap-16 mb-16">
+              <div className="lg:w-1/3 pt-4">
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900">
+                  探索 ESA <br/><span className="text-ali-orange">更多进阶能力</span>
                 </h2>
-                <p className="text-slate-400 text-lg leading-relaxed mb-8">
+                <p className="text-slate-600 text-lg leading-relaxed mb-8">
                   宝塔面板满足了日常运维的便捷性，如果您需满足更复杂的业务需求，阿里云 ESA 原生控制台还为您提供了更多企业级能力。
                 </p>
-                <button className="px-6 py-3 border border-white/20 hover:bg-white/10 rounded-lg transition-colors text-white font-semibold">
+                <button className="px-8 py-3 bg-white border border-slate-200 hover:border-ali-orange hover:text-ali-orange rounded-xl transition-all text-slate-700 font-semibold shadow-sm hover:shadow-md">
                   前往 ESA 控制台
                 </button>
               </div>
               <div className="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
                 {advancedFeatures.map((item, index) => (
-                  <div key={index} className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-colors">
-                    <div className="flex items-start gap-4">
-                      <div className="mt-1 text-blue-400 text-xl">
+                  <div key={index} className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:border-blue-100 transition-all duration-300 group">
+                    <div className="flex items-start gap-5">
+                      <div className="mt-1 text-blue-500 text-2xl p-3 bg-blue-50 rounded-xl group-hover:bg-blue-600 group-hover:text-white transition-colors">
                         {item.icon}
                       </div>
                       <div>
-                        <h3 className="text-lg font-bold mb-2 text-white">{item.title}</h3>
-                        <p className="text-slate-400 text-sm leading-relaxed">{item.desc}</p>
+                        <h3 className="text-lg font-bold mb-3 text-slate-900">{item.title}</h3>
+                        <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
                   </div>
