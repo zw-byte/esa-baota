@@ -28,7 +28,7 @@ const Hero = () => {
 
     <h1 className="font-extrabold mb-8 text-slate-900 leading-tight">
       <span className="block text-3xl sm:text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
-        阿里云ESA<span className="mx-3 sm:mx-6">X</span>宝塔面板
+        ESA<span className="mx-3 sm:mx-6">X</span>宝塔面板
       </span>
       <span className="block text-xl sm:text-3xl md:text-5xl">
         插件一键接入，配置效率翻倍
