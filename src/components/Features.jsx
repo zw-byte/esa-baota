@@ -136,7 +136,7 @@ const Features = () => {
                     <img 
                       src={selectedFeature.image} 
                       alt={selectedFeature.title} 
-                      className="max-w-full max-h-[65vh] w-auto h-auto block"
+                      className="w-[700px] max-w-full h-auto block"
                     />
                   </div>
                 </div>
