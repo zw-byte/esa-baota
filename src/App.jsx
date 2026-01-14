@@ -9,8 +9,8 @@ import React from 'react';
       return (
         <div className="min-h-screen bg-white">
           <Hero />
-          <Steps />
           <Features />
+          <Steps />
           <Advanced />
           <Footer />
         </div>
