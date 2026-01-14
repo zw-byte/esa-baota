@@ -32,7 +32,12 @@ import React from 'react';
     const Features = () => {
       return (
         <section className="py-24 bg-white relative z-10">
-          <div className="container mx-auto px-6">
+          {/* Subtle background connection */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl pointer-events-none opacity-30">
+             <div className="absolute top-[10%] left-[10%] w-[600px] h-[600px] bg-slate-50 rounded-full blur-3xl mix-blend-multiply"></div>
+          </div>
+
+          <div className="container mx-auto px-6 relative z-10">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">在宝塔面板，一键实现五大能力</h2>
               <p className="text-slate-500">主打“轻量、可视、自动化”，闭环管理您的站点</p>
