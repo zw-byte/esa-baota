@@ -11,12 +11,10 @@ import React from 'react';
           </div>
 
           <div className="container mx-auto px-6 text-center relative z-10">
-            <div className="mb-8 flex justify-center">
-               <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-white border border-slate-200 shadow-sm text-slate-700 text-base font-medium">
-                <span className="flex items-center gap-2 text-ali-orange font-bold">
-                  <FaBolt /> 强强联手
-                </span>
-              </div>
+            <div className="mb-10 flex justify-center items-center gap-6 select-none">
+              <img src="https://img.alicdn.com/tfs/TB1Ly5oS3HqK1RjSZFgXXa7JXXa-168-33.svg" alt="阿里云" className="h-8 md:h-10 object-contain" />
+              <span className="text-slate-300 text-2xl font-light">×</span>
+              <img src="https://www.bt.cn/Public/new/images/logo_new.png" alt="宝塔面板" className="h-8 md:h-10 object-contain" />
             </div>
             
         <h1 className="text-4xl md:text-6xl font-extrabold mb-8 text-slate-900 leading-snug">
