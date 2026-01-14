@@ -49,7 +49,7 @@ const Hero = () => {
                 <FaRocket /> 立即安装宝塔面板
               </a>
               <a 
-                href="https://help.aliyun.com/zh/edge-security-acceleration/?spm=5176.29630154.J_AHgvE-XDhTWrtotIBlDQQ.9.2d857579gd6c4g"
+                href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=a2c4g.11186623.0.i0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-bold text-lg transition-all shadow-sm flex items-center justify-center"
