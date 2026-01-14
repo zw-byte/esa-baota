@@ -35,12 +35,12 @@ import React from 'react';
               </div>
             </div>
             
-        <h1 className="text-2xl sm:text-4xl md:text-6xl font-extrabold mb-8 text-slate-900 leading-snug">
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-2 whitespace-nowrap">
-            阿里云 ESA x 宝塔面板
-          </span>
-          一键接入，效率翻倍
-        </h1>
+    <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-8 text-slate-900 leading-tight">
+      <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
+        阿里云 ESA x 宝塔面板
+      </span>
+      一键接入，效率翻倍
+    </h1>
     <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-loose font-light">
       在宝塔面板安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
       即可一站式管理站点接入与配置。
