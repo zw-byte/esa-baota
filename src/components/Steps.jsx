@@ -35,7 +35,7 @@
                     <div className="w-10 h-10 rounded-full bg-white border-2 border-blue-500 text-blue-600 flex items-center justify-center font-bold z-10 shrink-0 shadow-sm">1</div>
                     <div className="pt-1">
                       <h4 className="font-bold text-slate-800 mb-1">进入软件商店</h4>
-                      <p className="text-slate-600 text-sm">安装宝塔面板 → 进入首页“软件商店”</p>
+                      <p className="text-slate-600 text-sm">安装宝塔面板→进入首页-软件商店</p>
                     </div>
                   </div>
 
