@@ -32,7 +32,7 @@ const features = [
     icon: <FaHistory />,
     title: "智能缓存调度",
     desc: "提供缓存刷新、缓存预热以及历史记录查询功能，清缓存更快更顺手",
-    image: "https://1d-static.alibaba-inc.com/oneday/source/5a3cc8d7-8ee4-4d99-95b5-8fe6d868dbe8.png"
+    image: "https://1d-static.alibaba-inc.com/oneday/source/04a15f44-a7d7-4eb7-b36e-4c414e79d40e.png"
   }
 ];
 
