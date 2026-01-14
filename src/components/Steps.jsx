@@ -52,7 +52,7 @@
                   <div className="relative flex gap-4">
                     <div className="w-10 h-10 rounded-full bg-white border-2 border-blue-500 text-blue-600 flex items-center justify-center font-bold z-10 shrink-0 shadow-sm">3</div>
                   <div className="pt-1">
-                    <h4 className="font-bold text-slate-800 mb-1">关联密钥启用</h4>
+                    <h4 className="font-bold text-slate-800 mb-1">关联密钥</h4>
                     <p className="text-slate-600 text-sm">关联阿里云账号密钥（在ESA控制台获取）→ 即可启用</p>
                   </div>
                 </div>
