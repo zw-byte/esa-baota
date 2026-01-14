@@ -12,11 +12,17 @@ const Hero = () => {
 
           <div className="container mx-auto px-6 text-center relative z-10">
             
-            <div className="flex justify-center mb-6">
+            <div className="flex items-center justify-center gap-6 mb-8">
               <img 
-                src="https://1d-static.alibaba-inc.com/oneday/source/5a3cc8d7-8ee4-4d99-95b5-8fe6d868dbe8.png" 
-                alt="Logo" 
-                className="h-20 md:h-24 object-contain mix-blend-multiply"
+                src="https://1d-static.alibaba-inc.com/oneday/source/14a5e15c-3e02-4299-b440-59c6d7b8daf2.png" 
+                alt="Alibaba Cloud" 
+                className="h-10 md:h-14 object-contain mix-blend-multiply"
+              />
+              <span className="text-slate-300 text-xl">✕</span>
+              <img 
+                src="https://1d-static.alibaba-inc.com/oneday/source/2ffb5d0c-a53c-4845-a099-d15ffdd0bf9f.png" 
+                alt="Baota Panel" 
+                className="h-10 md:h-14 object-contain mix-blend-multiply"
               />
             </div>
 
