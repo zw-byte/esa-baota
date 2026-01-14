@@ -11,26 +11,27 @@ import React from 'react';
           </div>
 
           <div className="container mx-auto px-6 text-center relative z-10">
-            <div className="mb-12 flex flex-wrap justify-center items-center gap-4 md:gap-8 select-none">
-              {/* 阿里云 Logo 矢量图 */}
-              <div className="flex items-center gap-3">
-                <svg viewBox="0 0 1024 1024" className="w-10 h-10 md:w-12 md:h-12" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M192 192h224v96H288v448h128v96H192V192z m640 0v640H608v-96h128V288H608v-96h224z m-512 288h384v96H320v-96z" fill="#FF6A00" />
+            <div className="mb-10 flex flex-wrap justify-center items-center gap-6 select-none opacity-90">
+              {/* 阿里云 Logo */}
+              <div className="flex items-center gap-2.5">
+                <svg viewBox="0 0 1024 1024" className="w-8 h-8 md:w-9 md:h-9" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M213.333333 213.333333h170.666667v128H298.666667v341.333334h85.333333v128H213.333333V213.333333z m597.333334 0v597.333334h-170.666667v-128h85.333333V341.333333h-85.333333V213.333333h170.666667z" fill="#FF6A00" />
+                  <path d="M469.333333 469.333333h85.333334v85.333334h-85.333334z" fill="#FF6A00" />
                 </svg>
-                <span className="text-3xl md:text-4xl font-bold text-[#FF6A00] tracking-tight">阿里云</span>
+                <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">阿里云</span>
               </div>
 
-              <span className="text-slate-300 text-3xl font-light px-2">×</span>
+              <span className="text-slate-300 text-xl font-light px-1">×</span>
 
-              {/* 宝塔 Logo 矢量图 */}
-              <div className="flex items-center gap-3">
-                <svg viewBox="0 0 1024 1024" className="w-9 h-9 md:w-11 md:h-11" version="1.1" xmlns="http://www.w3.org/2000/svg">
+              {/* 宝塔 Logo */}
+              <div className="flex items-center gap-2.5">
+                <svg viewBox="0 0 1024 1024" className="w-7 h-7 md:w-8 md:h-8" version="1.1" xmlns="http://www.w3.org/2000/svg">
                   <path d="M512 100L128 240V512C128 760 512 924 512 924C512 924 896 760 896 512V240L512 100Z" fill="#20a53a"/>
-                  <path d="M512 240L700 320V380H324V320L512 240Z" fill="white"/>
-                  <path d="M340 420H684V480H340V420Z" fill="white"/>
-                  <path d="M360 520H664V580H360V520Z" fill="white"/>
+                  <path d="M512 240L700 320V380H324V320L512 240Z" fill="white" opacity="0.9"/>
+                  <path d="M340 420H684V480H340V420Z" fill="white" opacity="0.9"/>
+                  <path d="M360 520H664V580H360V520Z" fill="white" opacity="0.9"/>
                 </svg>
-                <span className="text-3xl md:text-4xl font-bold text-[#20a53a] tracking-tight">宝塔面板</span>
+                <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">宝塔面板</span>
               </div>
             </div>
             
