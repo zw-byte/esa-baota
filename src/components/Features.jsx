@@ -39,7 +39,7 @@ import React from 'react';
 
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">在宝塔面板，一键实现五大能力</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">在宝塔面板，一键实现ESA五大能力</h2>
               <p className="text-slate-500">主打“轻量、可视、自动化”，闭环管理您的站点</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6">
