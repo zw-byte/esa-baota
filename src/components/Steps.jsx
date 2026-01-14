@@ -79,7 +79,7 @@
                   <p className="text-slate-600 leading-relaxed mb-4">
                     通过阿里云市场安装宝塔镜像，默认提供ESA插件功能，<span className="font-bold text-slate-800">开箱即用</span>。
                   </p>
-                  <span className="inline-block px-4 py-2 bg-slate-200 text-slate-600 text-xs rounded-full font-medium">
+                  <span className="inline-block px-4 py-2 bg-blue-50 text-blue-600 text-xs rounded-full font-medium">
                     敬请期待
                   </span>
                 </div>
