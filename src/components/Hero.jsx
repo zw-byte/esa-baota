@@ -35,8 +35,8 @@ import React from 'react';
               </div>
             </div>
             
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-8 text-slate-900 leading-snug">
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-2">
+        <h1 className="text-2xl sm:text-4xl md:text-6xl font-extrabold mb-8 text-slate-900 leading-snug">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-2 whitespace-nowrap">
             阿里云 ESA x 宝塔面板
           </span>
           一键接入，效率翻倍
