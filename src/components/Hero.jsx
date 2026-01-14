@@ -12,6 +12,14 @@ const Hero = () => {
 
           <div className="container mx-auto px-6 text-center relative z-10">
             
+            <div className="flex justify-center mb-6">
+              <img 
+                src="https://1d-static.alibaba-inc.com/oneday/source/5a3cc8d7-8ee4-4d99-95b5-8fe6d868dbe8.png" 
+                alt="Logo" 
+                className="h-20 md:h-24 object-contain mix-blend-multiply"
+              />
+            </div>
+
     <h1 className="font-extrabold mb-8 text-slate-900 leading-tight">
       <span className="block text-3xl sm:text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
         阿里云ESA<span className="mx-3 sm:mx-6">X</span>宝塔面板
