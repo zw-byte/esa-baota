@@ -80,7 +80,7 @@
                     通过阿里云市场安装宝塔镜像，默认提供ESA插件功能，<span className="font-bold text-slate-800">开箱即用</span>。
                   </p>
                   <span className="inline-block px-4 py-2 bg-slate-200 text-slate-600 text-xs rounded-full font-medium">
-                    该部分待宝塔镜像上线后更新
+                    敬请期待
                   </span>
                 </div>
               </div>
