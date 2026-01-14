@@ -37,6 +37,9 @@ import React from 'react';
             
             <div className="absolute top-[-10%] right-[-5%] w-[800px] h-[800px] bg-gradient-to-b from-indigo-50/10 to-violet-50/10 rounded-full blur-3xl"></div>
             <div className="absolute bottom-[-20%] left-[-10%] w-[900px] h-[900px] bg-gradient-to-t from-orange-50/50 to-rose-50/50 rounded-full blur-3xl"></div>
+            
+            {/* Bottom white mask for seamless transition to footer */}
+            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white via-white/80 to-transparent z-10"></div>
           </div>
           
           <div className="container mx-auto px-6 relative z-10">
