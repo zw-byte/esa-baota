@@ -135,11 +135,16 @@ const Features = () => {
                 </div>
                 
                 {/* Modal Content - Image Container */}
-                <div className="flex-1 overflow-hidden p-4 bg-white flex items-center justify-center">
-                  <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <div className="flex-1 overflow-y-auto p-4 bg-white flex flex-col items-center">
+                  <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden shrink-0">
                     <img 
                       src={selectedFeature.image} 
                       alt={selectedFeature.title} 
+                      className="w-[700px] max-w-full h-auto block"
+                    />
+                    <img 
+                      src="https://1d-static.alibaba-inc.com/oneday/source/93470b59-2059-4882-b8d0-1962b3460f83.png" 
+                      alt="Feature Detail 2" 
                       className="w-[700px] max-w-full h-auto block"
                     />
                   </div>
