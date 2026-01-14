@@ -12,11 +12,13 @@ const Hero = () => {
 
           <div className="container mx-auto px-6 text-center relative z-10">
             
-    <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-8 text-slate-900 leading-tight">
-      <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
+    <h1 className="font-extrabold mb-8 text-slate-900 leading-tight">
+      <span className="block text-3xl sm:text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
         阿里云 ESA x 宝塔面板
       </span>
-      一键接入，效率翻倍
+      <span className="block text-2xl sm:text-4xl md:text-6xl">
+        插件一键接入，配置效率翻倍
+      </span>
     </h1>
     <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-loose font-light">
       在宝塔面板安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
