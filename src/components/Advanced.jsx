@@ -5,22 +5,22 @@ import React from 'react';
       {
         icon: <FaShieldAlt />,
         title: "全方位安全防护",
-        desc: "集成 WAF Web应用防火墙、DDoS 防护及 Bots 流量管理，构建云边一体的安全防线，精准抵御各类网络攻击。"
+        desc: "集成 WAF Web应用防火墙、DDoS 防护及 Bots 流量管理，构建云边一体的安全防线，精准抵御各类网络攻击"
       },
       {
         icon: <FaTachometerAlt />,
         title: "极致性能优化",
-        desc: "全面支持 HTTP/3 (QUIC) 协议与 IPv6 访问；提供图像自适应处理（WebP/AVIF、智能压缩），在降低延时的同时显著减少带宽成本。"
+        desc: "全面支持 HTTP/3 (QUIC) 协议与 IPv6 访问；提供图像自适应处理（WebP/AVIF、智能压缩），在降低延时的同时显著减少带宽成本"
       },
       {
         icon: <FaCode />,
         title: "函数和Pages",
-        desc: "提供 Serverless 计算环境，支持在全球边缘节点直接运行 JavaScript/Wasm 代码，无需服务器即可处理复杂业务逻辑；Pages 可实现与 Git 代码仓库无缝集成，支持自动化构建和部署，让前端项目瞬间获得全球加速能力。"
+        desc: "提供 Serverless 计算环境，支持在全球边缘节点直接运行 JavaScript/Wasm 代码，无需服务器即可处理复杂业务逻辑；Pages 可实现与 Git 代码仓库无缝集成，支持自动化构建和部署，让前端项目瞬间获得全球加速能力"
       },
       {
         icon: <FaChartPie />,
         title: "分析和日志",
-        desc: "通过边缘日志分析、实时监控和智能告警在边缘节点对数据进行收集和处理，及时发现和响应潜在的安全威胁，增强数据的可见性和管理性和运营效率。"
+        desc: "通过边缘日志分析、实时监控和智能告警在边缘节点对数据进行收集和处理，及时发现和响应潜在的安全威胁，增强数据的可见性和管理性和运营效率"
       }
     ];
 
