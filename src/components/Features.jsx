@@ -31,10 +31,11 @@ import React from 'react';
 
     const Features = () => {
       return (
-        <section className="py-24 bg-white relative z-10">
+        <section className="py-24 bg-white relative z-10 overflow-hidden">
           {/* Subtle background connection */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl pointer-events-none opacity-30">
-             <div className="absolute top-[10%] left-[10%] w-[600px] h-[600px] bg-slate-50 rounded-full blur-3xl mix-blend-multiply"></div>
+          <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+             <div className="absolute top-[10%] right-[5%] w-[600px] h-[600px] bg-gradient-to-bl from-emerald-50/40 to-teal-50/40 rounded-full blur-3xl"></div>
+             <div className="absolute bottom-[10%] left-[5%] w-[700px] h-[700px] bg-gradient-to-tr from-cyan-50/40 to-sky-50/40 rounded-full blur-3xl"></div>
           </div>
 
           <div className="container mx-auto px-6 relative z-10">

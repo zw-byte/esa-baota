@@ -3,7 +3,13 @@
 
     const Steps = () => {
       return (
-        <section className="py-24 bg-white relative">
+        <section className="py-24 bg-white relative overflow-hidden">
+          {/* Background decoration */}
+          <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+            <div className="absolute top-1/4 left-[-10%] w-[800px] h-[800px] bg-blue-50/40 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 right-[-10%] w-[600px] h-[600px] bg-purple-50/30 rounded-full blur-3xl"></div>
+          </div>
+
           <div className="container mx-auto px-6 relative z-10">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">安装接入方式</h2>

@@ -5,9 +5,10 @@ const Hero = () => {
       return (
         <section className="relative pt-24 pb-36 overflow-hidden bg-white">
           {/* Background decoration */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
-            <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-blue-100/50 rounded-full blur-3xl mix-blend-multiply"></div>
-            <div className="absolute top-[10%] left-[-10%] w-[500px] h-[500px] bg-orange-100/50 rounded-full blur-3xl mix-blend-multiply"></div>
+          <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+            <div className="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-gradient-to-br from-blue-50 to-indigo-50 rounded-full blur-3xl opacity-80"></div>
+            <div className="absolute top-[10%] left-[-10%] w-[600px] h-[600px] bg-gradient-to-tr from-orange-50 to-amber-50 rounded-full blur-3xl opacity-80"></div>
+            <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white via-white/50 to-transparent"></div>
           </div>
 
           <div className="container mx-auto px-6 text-center relative z-10">

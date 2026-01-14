@@ -28,9 +28,9 @@ import React from 'react';
       return (
         <section className="py-24 bg-white text-slate-900 relative overflow-hidden">
           {/* Decorative background elements - Subtle flow */}
-          <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-40 pointer-events-none">
-            <div className="absolute top-[20%] right-[-10%] w-[800px] h-[800px] bg-blue-50/50 rounded-full blur-3xl mix-blend-multiply"></div>
-            <div className="absolute bottom-[-10%] left-[-10%] w-[800px] h-[800px] bg-orange-50/50 rounded-full blur-3xl mix-blend-multiply"></div>
+          <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+            <div className="absolute top-[-20%] right-[-10%] w-[900px] h-[900px] bg-gradient-to-b from-indigo-50/60 to-violet-50/60 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-[-20%] left-[-10%] w-[900px] h-[900px] bg-gradient-to-t from-orange-50/50 to-rose-50/50 rounded-full blur-3xl"></div>
           </div>
 
           <div className="container mx-auto px-6 relative z-10">
