@@ -26,7 +26,7 @@ import React from 'react';
 
     const Advanced = () => {
       return (
-        <section className="py-24 bg-white text-slate-900 relative overflow-hidden">
+        <section className="py-24 bg-gradient-to-b from-white to-slate-50 text-slate-900 relative overflow-hidden">
           {/* Decorative background elements - Subtle flow */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
             <div className="absolute top-[-20%] right-[-10%] w-[900px] h-[900px] bg-gradient-to-b from-indigo-50/60 to-violet-50/60 rounded-full blur-3xl"></div>
