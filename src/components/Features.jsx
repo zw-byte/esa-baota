@@ -47,29 +47,15 @@ import React from 'react';
                 <div 
                   key={index} 
                   className={`
-                    relative overflow-hidden
-                    bg-slate-50 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 border border-slate-100 flex flex-col items-center text-center group
+                    bg-slate-50 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 flex flex-col items-center text-center hover:-translate-y-1
                     ${index < 3 ? 'lg:col-span-2' : index === 3 ? 'lg:col-span-3' : 'md:col-span-2 lg:col-span-3'}
                   `}
                 >
-                  {/* Hover Image Background */}
-                  <div className="absolute inset-0 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <img 
-                      src={feature.image} 
-                      alt={feature.title} 
-                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0 bg-slate-900/80 mix-blend-multiply"></div>
+                  <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg shadow-blue-500/20">
+                    {feature.icon}
                   </div>
-
-                  {/* Content */}
-                  <div className="relative z-10 flex flex-col items-center">
-                    <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg shadow-blue-500/20 group-hover:scale-110 group-hover:shadow-blue-500/40 transition-all duration-300">
-                      {feature.icon}
-                    </div>
-                    <h3 className="text-xl font-bold text-slate-900 group-hover:text-white mb-3 transition-colors duration-300">{feature.title}</h3>
-                    <p className="text-slate-600 group-hover:text-slate-200 leading-relaxed transition-colors duration-300">{feature.desc}</p>
-                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
+                  <p className="text-slate-600 leading-relaxed">{feature.desc}</p>
                 </div>
               ))}
             </div>
