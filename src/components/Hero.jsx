@@ -21,8 +21,8 @@ const Hero = () => {
       </span>
     </h1>
     <p className="text-lg md:text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-loose font-light">
-      在宝塔面板安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件，<br className="hidden md:block"/>
-      即可一站式管理站点接入与配置。
+      在宝塔面板安装<span className="font-semibold text-ali-orange">“阿里云ESA”</span>插件<br />
+      一站式管理站点接入与配置
     </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
