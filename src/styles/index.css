@@ -10,6 +10,6 @@
       @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-ali-orange;
     }
 
-.glass-card {
-  @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-xl;
-}
+    .glass-card {
+      @apply bg-white/80 backdrop-blur-lg border border-white/20 shadow-xl;
+    }
