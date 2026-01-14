@@ -20,7 +20,7 @@ const features = [
     icon: <FaGlobe />,
     title: "统一DNS与解析",
     desc: "在面板内可直接添加/编辑 DNS 记录，解析生效快人一步",
-    image: "https://1d-static.alibaba-inc.com/oneday/source/04a15f44-a7d7-4eb7-b36e-4c414e79d40e.png"
+    image: "https://1d-static.alibaba-inc.com/oneday/source/ffc0b6db-7aa0-4dd5-a7f1-b6a98405aad1.png"
   },
   {
     icon: <FaLock />,
