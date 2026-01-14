@@ -79,7 +79,7 @@
                   </div>
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-center text-center p-6 bg-slate-50 rounded-2xl border border-dashed border-slate-200">
+                <div className="flex-1 flex flex-col justify-center items-center text-center p-6 rounded-2xl border border-dashed border-slate-200">
                   <p className="text-slate-600 leading-relaxed mb-4 text-sm">
                     通过阿里云市场安装宝塔镜像<br />
                     默认提供ESA插件功能<span className="hidden md:inline">，</span><br className="md:hidden" />
