@@ -80,8 +80,10 @@
                 </div>
 
                 <div className="flex-1 flex flex-col justify-center items-center text-center p-6 bg-slate-50 rounded-2xl border border-dashed border-slate-200">
-                  <p className="text-slate-600 leading-relaxed mb-4 whitespace-nowrap text-sm">
-                    通过阿里云市场安装宝塔镜像，默认提供ESA插件功能，<span className="font-bold text-slate-800">开箱即用</span>。
+                  <p className="text-slate-600 leading-relaxed mb-4 text-sm">
+                    通过阿里云市场安装宝塔镜像<br />
+                    默认提供ESA插件功能<br />
+                    <span className="font-bold text-slate-800">开箱即用</span>
                   </p>
               <span className="inline-block px-6 py-2.5 bg-blue-50 text-blue-600 text-sm rounded-full font-medium">
                 敬请期待
