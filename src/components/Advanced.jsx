@@ -26,16 +26,16 @@ import React from 'react';
 
     const Advanced = () => {
       return (
-        <section className="py-24 bg-gradient-to-b from-white via-white to-slate-50 text-slate-900 relative overflow-hidden">
+        <section className="pt-12 pb-24 bg-gradient-to-b from-white via-slate-50/50 to-slate-50 text-slate-900 relative overflow-hidden">
           {/* Decorative background elements - Subtle flow */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
-            <div className="absolute top-[-20%] right-[-10%] w-[900px] h-[900px] bg-gradient-to-b from-indigo-50/30 to-violet-50/30 rounded-full blur-3xl"></div>
+            {/* Center top light leak for better transition */}
+            <div className="absolute top-[-300px] left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-gradient-to-b from-blue-50/20 to-transparent rounded-full blur-3xl"></div>
+            
+            <div className="absolute top-[-10%] right-[-5%] w-[800px] h-[800px] bg-gradient-to-b from-indigo-50/20 to-violet-50/20 rounded-full blur-3xl"></div>
             <div className="absolute bottom-[-20%] left-[-10%] w-[900px] h-[900px] bg-gradient-to-t from-orange-50/50 to-rose-50/50 rounded-full blur-3xl"></div>
           </div>
           
-          {/* Top fade to ensure seamless transition from previous white section */}
-          <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-white to-transparent z-0"></div>
-
           <div className="container mx-auto px-6 relative z-10">
             <div className="flex flex-col lg:flex-row items-start justify-between gap-16 mb-16">
               <div className="lg:w-1/3 pt-4">
