@@ -28,7 +28,6 @@
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900">方式一：面板插件安装</h3>
-                    <p className="text-slate-500 text-sm">适用于已安装宝塔面板的用户</p>
                   </div>
                 </div>
 
@@ -77,7 +76,6 @@
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900">方式二：镜像一键部署</h3>
-                    <p className="text-slate-500 text-sm">通过阿里云市场安装</p>
                   </div>
                 </div>
 
