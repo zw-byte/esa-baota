@@ -11,7 +11,7 @@ import React from 'react';
             <a href="https://help.aliyun.com/zh/edge-security-acceleration/?spm=5176.29630154.J_AHgvE-XDhTWrtotIBlDQQ.9.2d857579gd6c4g" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-ali-orange transition-colors">帮助文档</a>
           </div>
             <p className="text-sm text-slate-400">
-              © 2024 Alibaba Cloud & Baota Panel. All rights reserved.
+              © 2026 Alibaba Cloud & Baota Panel. All rights reserved.
             </p>
           </div>
         </footer>
