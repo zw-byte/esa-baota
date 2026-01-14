@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaChartLine, FaSlidersH, FaGlobe, FaLock, FaHistory, FaTimes, FaSearchPlus } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -37,6 +37,18 @@ const features = [
 
 const Features = () => {
   const [selectedFeature, setSelectedFeature] = useState(null);
+
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (selectedFeature) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedFeature]);
 
   return (
     <section className="py-24 bg-white relative z-10 overflow-hidden">
@@ -92,7 +104,7 @@ const Features = () => {
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 20 }}
               transition={{ type: "spring", duration: 0.5, bounce: 0.3 }}
-              className="bg-white rounded-2xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden flex flex-col relative"
+              className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[85vh] overflow-hidden flex flex-col relative"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Modal Header */}
