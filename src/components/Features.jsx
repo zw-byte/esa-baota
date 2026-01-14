@@ -130,13 +130,13 @@ const Features = () => {
                   </button>
                 </div>
                 
-                {/* Modal Content - Scrollable Image */}
-                <div className="flex-1 overflow-y-auto p-4 bg-slate-50">
+                {/* Modal Content - Image Container */}
+                <div className="flex-1 overflow-hidden p-4 bg-slate-50 flex items-center justify-center">
                   <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
                     <img 
                       src={selectedFeature.image} 
                       alt={selectedFeature.title} 
-                      className="w-full h-auto block"
+                      className="max-w-full max-h-[65vh] w-auto h-auto block"
                     />
                   </div>
                 </div>
