@@ -33,9 +33,14 @@ const Hero = () => {
               >
                 <FaRocket /> 立即安装宝塔面板
               </a>
-              <button className="px-8 py-4 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-bold text-lg transition-all shadow-sm">
-                了解更多
-              </button>
+              <a 
+                href="https://www.aliyun.com/product/esa?spm=5176.42028462.nav-v2-dropdown-menu-1.d_main_4_3_1.35c9154atdjKRv&scm=20140722.X_data-0cdb601aa282ed84fccb._.V_1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-4 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-bold text-lg transition-all shadow-sm flex items-center justify-center"
+              >
+                了解ESA
+              </a>
             </div>
           </div>
         </section>
