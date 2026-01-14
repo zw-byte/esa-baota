@@ -37,7 +37,7 @@ import React from 'react';
             
         <h1 className="text-4xl md:text-6xl font-extrabold mb-8 text-slate-900 leading-snug">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-2">
-            阿里云ESA强势入驻宝塔面板
+            阿里云 ESA x 宝塔面板
           </span>
           一键接入，效率翻倍
         </h1>
