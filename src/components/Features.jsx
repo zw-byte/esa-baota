@@ -31,7 +31,7 @@ import React from 'react';
 
     const Features = () => {
       return (
-        <section className="py-24 bg-slate-50">
+        <section className="py-24 bg-white relative z-10">
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-slate-900 mb-4">在宝塔面板，一键实现五大能力</h2>
@@ -42,7 +42,7 @@ import React from 'react';
                 <div 
                   key={index} 
                   className={`
-                    bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-100 flex flex-col items-center text-center group
+                    bg-slate-50 p-8 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-100 flex flex-col items-center text-center group
                     ${index < 3 ? 'lg:col-span-2' : index === 3 ? 'lg:col-span-3' : 'md:col-span-2 lg:col-span-3'}
                   `}
                 >
