@@ -11,10 +11,25 @@ import React from 'react';
           </div>
 
           <div className="container mx-auto px-6 text-center relative z-10">
-            <div className="mb-10 flex justify-center items-center gap-6 select-none">
-              <img src="https://img.alicdn.com/tfs/TB1Ly5oS3HqK1RjSZFgXXa7JXXa-168-33.svg" alt="阿里云" className="h-8 md:h-10 object-contain" />
+            <div className="mb-10 flex justify-center items-center gap-8 select-none">
+              {/* 阿里云 Logo 样式模拟 */}
+              <div className="flex items-center gap-3 group cursor-default">
+                <div className="relative w-9 h-9 flex items-center justify-center">
+                  <div className="absolute inset-0 border-[3px] border-ali-orange rounded-lg transform rotate-0 group-hover:rotate-12 transition-transform duration-300"></div>
+                  <div className="absolute inset-[6px] bg-ali-orange rounded-[2px]"></div>
+                </div>
+                <span className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">阿里云</span>
+              </div>
+
               <span className="text-slate-300 text-2xl font-light">×</span>
-              <img src="https://www.bt.cn/Public/new/images/logo_new.png" alt="宝塔面板" className="h-8 md:h-10 object-contain" />
+
+              {/* 宝塔 Logo 样式模拟 */}
+              <div className="flex items-center gap-3 group cursor-default">
+                <div className="w-9 h-9 bg-[#20a53a] rounded-lg flex items-center justify-center text-white font-extrabold text-sm shadow-sm shadow-green-200 group-hover:scale-110 transition-transform duration-300">
+                  BT
+                </div>
+                <span className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">宝塔面板</span>
+              </div>
             </div>
             
         <h1 className="text-4xl md:text-6xl font-extrabold mb-8 text-slate-900 leading-snug">
