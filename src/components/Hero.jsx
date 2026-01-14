@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRocket, FaBolt, FaCloud, FaCube } from 'react-icons/fa';
+import { FaRocket } from 'react-icons/fa';
 
 const Hero = () => {
       return (
@@ -11,25 +11,6 @@ const Hero = () => {
           </div>
 
           <div className="container mx-auto px-6 text-center relative z-10">
-          <div className="mb-10 flex flex-wrap justify-center items-center gap-6 select-none opacity-90">
-            {/* 阿里云 Logo */}
-            <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 md:w-9 md:h-9 rounded-lg bg-orange-50 flex items-center justify-center text-ali-orange shadow-sm border border-orange-100">
-                <FaCloud className="text-lg md:text-xl" />
-              </div>
-              <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">阿里云</span>
-            </div>
-
-            <span className="text-slate-300 text-xl font-light px-1">×</span>
-
-            {/* 宝塔 Logo */}
-            <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 md:w-9 md:h-9 rounded-lg bg-green-50 flex items-center justify-center text-green-600 shadow-sm border border-green-100">
-                <FaCube className="text-lg md:text-xl" />
-              </div>
-              <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">宝塔面板</span>
-            </div>
-          </div>
             
     <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-8 text-slate-900 leading-tight">
       <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
