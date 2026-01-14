@@ -16,8 +16,6 @@ import React from 'react';
                 <span className="flex items-center gap-2 text-ali-orange font-bold">
                   <FaBolt /> 强强联手
                 </span>
-                <span className="w-px h-4 bg-slate-300"></span>
-                <span>阿里云 ESA <span className="text-slate-400">x</span> 宝塔面板</span>
               </div>
             </div>
             
