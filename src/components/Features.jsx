@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { FaChartLine, FaSlidersH, FaGlobe, FaLock, FaHistory, FaTimes, FaSearchPlus } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -90,7 +91,7 @@ const Features = () => {
 
       {/* Image Modal */}
       <AnimatePresence>
-        {selectedFeature && (
+        {selectedFeature && createPortal(
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -137,7 +138,8 @@ const Features = () => {
                 </div>
               </div>
             </motion.div>
-          </motion.div>
+          </motion.div>,
+          document.body
         )}
       </AnimatePresence>
     </section>
