@@ -1,6 +1,5 @@
 import React from 'react';
     import Hero from './components/Hero';
-    import BenefitCard from './components/BenefitCard';
     import Steps from './components/Steps';
     import Features from './components/Features';
     import Advanced from './components/Advanced';
@@ -10,7 +9,6 @@ import React from 'react';
       return (
         <div className="min-h-screen bg-white">
           <Hero />
-          <BenefitCard />
           <Steps />
           <Features />
           <Advanced />
