@@ -116,7 +116,7 @@ const Features = () => {
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Modal Header */}
-                <div className="flex items-center justify-between p-6 border-b border-slate-100 bg-white z-10 shrink-0">
+                <div className="flex items-center justify-between p-6 bg-white z-10 shrink-0">
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center text-lg">
                       {selectedFeature.icon}
@@ -135,7 +135,7 @@ const Features = () => {
                 </div>
                 
                 {/* Modal Content - Image Container */}
-                <div className="flex-1 overflow-hidden p-4 bg-slate-50 flex items-center justify-center">
+                <div className="flex-1 overflow-hidden p-4 bg-white flex items-center justify-center">
                   <div className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
                     <img 
                       src={selectedFeature.image} 
