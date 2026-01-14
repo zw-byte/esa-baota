@@ -1,7 +1,7 @@
 import React from 'react';
-    import { FaRocket, FaBolt } from 'react-icons/fa';
+import { FaRocket, FaBolt, FaCloud, FaCube } from 'react-icons/fa';
 
-    const Hero = () => {
+const Hero = () => {
       return (
         <section className="relative pt-24 pb-36 overflow-hidden bg-white">
           {/* Background decoration */}
@@ -11,21 +11,25 @@ import React from 'react';
           </div>
 
           <div className="container mx-auto px-6 text-center relative z-10">
-            <div className="mb-10 flex flex-wrap justify-center items-center gap-6 select-none opacity-90">
-              {/* 阿里云 Logo */}
-              <div className="flex items-center gap-2.5">
-                <img src="https://img.alicdn.com/imgextra/i4/O1CN019XW99I1R2Z2Z2Z2Z2_!!6000000002052-2-tps-900-900.png" alt="阿里云" className="w-8 h-8 md:w-9 md:h-9" />
-                <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">阿里云</span>
+          <div className="mb-10 flex flex-wrap justify-center items-center gap-6 select-none opacity-90">
+            {/* 阿里云 Logo */}
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 md:w-9 md:h-9 rounded-lg bg-orange-50 flex items-center justify-center text-ali-orange shadow-sm border border-orange-100">
+                <FaCloud className="text-lg md:text-xl" />
               </div>
-
-              <span className="text-slate-300 text-xl font-light px-1">×</span>
-
-              {/* 宝塔 Logo */}
-              <div className="flex items-center gap-2.5">
-                <img src="https://img.alicdn.com/imgextra/i2/O1CN01u35iJt1uYJ0Q2Z2Z2_!!6000000006052-2-tps-460-460.png" alt="宝塔面板" className="w-7 h-7 md:w-8 md:h-8" />
-                <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">宝塔面板</span>
-              </div>
+              <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">阿里云</span>
             </div>
+
+            <span className="text-slate-300 text-xl font-light px-1">×</span>
+
+            {/* 宝塔 Logo */}
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 md:w-9 md:h-9 rounded-lg bg-green-50 flex items-center justify-center text-green-600 shadow-sm border border-green-100">
+                <FaCube className="text-lg md:text-xl" />
+              </div>
+              <span className="text-xl md:text-2xl font-bold text-slate-700 tracking-tight">宝塔面板</span>
+            </div>
+          </div>
             
     <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-8 text-slate-900 leading-tight">
       <span className="block text-transparent bg-clip-text bg-gradient-to-r from-ali-orange to-blue-600 mb-4 whitespace-nowrap tracking-tighter">
