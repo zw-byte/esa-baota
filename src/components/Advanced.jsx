@@ -40,7 +40,7 @@ import React from 'react';
                   探索 ESA <br/><span className="text-ali-orange">更多进阶能力</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed mb-8">
-                  宝塔面板满足了日常运维的便捷性，如果您需满足更复杂的业务需求，阿里云ESA官网控制台还为您提供了以下进阶能力：
+                  宝塔面板满足了日常运维的便捷性，若您还需满足更复杂的业务需求，可前往阿里云控制台探索更多进阶能力
                 </p>
                 <a 
                   href="https://help.aliyun.com/zh/edge-security-acceleration/esa/product-overview/what-is-esa?spm=a2c4g.11186623.0.i1"
