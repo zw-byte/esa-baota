@@ -5,32 +5,27 @@ import React from 'react';
       {
         icon: <FaChartLine />,
         title: "全景数据概览",
-        desc: "提供可视化的数据看板与源站监控，网站运行状态一屏尽知。",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+        desc: "提供可视化的数据看板与源站监控，网站运行状态一屏尽知。"
       },
       {
         icon: <FaSlidersH />,
         title: "极简站点管理",
-        desc: "一键启用/停用站点，灵活编辑接入模式与加速区域，一站式高效管理。",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+        desc: "一键启用/停用站点，灵活编辑接入模式与加速区域，一站式高效管理。"
       },
       {
         icon: <FaGlobe />,
         title: "统一DNS与解析",
-        desc: "在面板内可直接添加/编辑 DNS 记录，解析生效快人一步。",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80"
+        desc: "在面板内可直接添加/编辑 DNS 记录，解析生效快人一步。"
       },
       {
         icon: <FaLock />,
         title: "全链路证书配置",
-        desc: "一站式上传与同步边缘及源站证书，轻松实现HTTPS全链路加密传输。",
-        image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800&q=80"
+        desc: "一站式上传与同步边缘及源站证书，轻松实现HTTPS全链路加密传输。"
       },
       {
         icon: <FaHistory />,
         title: "智能缓存调度",
-        desc: "提供缓存刷新、缓存预热以及历史记录查询功能，清缓存更快更顺手。",
-        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+        desc: "提供缓存刷新、缓存预热以及历史记录查询功能，清缓存更快更顺手。"
       }
     ];
 
